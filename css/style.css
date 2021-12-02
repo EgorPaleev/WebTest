@@ -1,3 +1,6 @@
+
+
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -21,6 +24,16 @@ h1 {
     color: #6e7ea9;
     text-transform: uppercase;
 }
+
+a:hover {
+    color: gold;
+}
+
+.grid-item:nth-child(3) {
+    color:gold;
+    background: #192b59;
+}
+    
 
 .btn-free {
     color: #fff;
