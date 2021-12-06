@@ -23,22 +23,59 @@ h1 {
     font-weight: 700;
     color: #6e7ea9;
     text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
 }
 
-a:hover {
-    color: gold;
-}
-
-.grid-item:nth-child(3) {
-    color:gold;
-    background: #192b59;
-}
-    
-
-.btn-free {
+.btn-primary {
     color: #fff;
-    font-weight: 400;
     background-color: #1085e4;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 25px 45px;
+    border-radius: 30px;
+    letter-spacing: 3.5px;
+    border: 1px solid #1085e4
+}
+.btn-primary:hover {
+    color: #1085e4;
+    background: #fff;;
+}
+
+.btn-secondary {
+    color: #7e8bae;
+    background-color: #cbdbe8;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 25px 45px;
+    border-radius: 30px;
+    letter-spacing: 3.5px;
+    border: 1px solid #cbdbe8;
+}
+
+.btn-secondary:hover {
+    background-color: #fff;
+}
+
+.btn-group a+a {
+    margin-left: 15px;
+
+}
+.btn-free {
+    font-weight: 400;
+    letter-spacing: 2.3px;
+    padding: 25px 60px;
+}
+
+.btn-info {
+    color: #8051b1;
+    background: transparent;
+    border: 1px solid #dce1e5;
+    padding: 20px 40px;
+    border-radius: 30px;
 }
 
 .grid h2 {
