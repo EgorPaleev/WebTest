@@ -8,6 +8,11 @@ body {
     line-height: 26px;
 }
 
+.wrap {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
 a {
     text-decoration: none;
 }
@@ -16,8 +21,12 @@ h1 {
     font-size: 80px;
     font-weight: 600;
     color: #192b59;
+    max-width: 540px;
+    line-height: 1.1;
+    letter-spacing: -2.5px;
+    margin-bottom: 65px;
 }
-
+/*Заголовки */
 .nav {
     font-size: 12px;
     font-weight: 700;
@@ -26,6 +35,31 @@ h1 {
     margin: 0px;
     padding: 0px;
     list-style-type: none;
+    display: flex;
+}
+
+.title-h2 {
+    font-size: 50px;
+    font-weight: 600px;
+    color: #192b59;
+    line-height: 1.2;
+    letter-spacing: -1.5px;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+.title-h2 span {
+    display: block;
+    font-size: 16px;
+    font-weight: 800px;
+    color: #1085e4;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+/* Конец заголовка */
+.nav>li{
+    padding: 0 15px;
 }
 
 .btn-primary {
@@ -229,4 +263,35 @@ h1 {
     font-size: 40px;
     font-weight: 600;
     color: #192b59;
+}
+
+.numbers {
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.numbers>li{
+    font-size: 12px;
+    font-weight: 700;
+    color: #1085e4;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+
+.numbers>li span{
+    display: block;
+    font-size: 60px;
+    font-weight: 700;
+    color: #bacbdc;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.page-stat{
+    background-color: #edf6ff;
+    padding: 115px 0 95px 0;
 }
