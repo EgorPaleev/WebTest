@@ -44,7 +44,7 @@ h1 {
     color: #192b59;
     line-height: 1.2;
     letter-spacing: -1.5px;
-    max-width: 500px;
+    max-width: 800px;
     text-align: center;
     margin-bottom: 75px;
 }
@@ -62,30 +62,34 @@ h1 {
     padding: 0 15px;
 }
 
+.nav-item {
+    color: #6e7ea9;
+}
+
 .btn-primary {
-    color: #fff;
     background-color: #1085e4;
     text-transform: uppercase;
+    color: white;
     font-size: 12px;
     font-weight: 700;
     padding: 25px 45px;
-    border-radius: 30px;
+    border-radius: 40px;
     letter-spacing: 3.5px;
-    border: 1px solid #1085e4
+    border: 1px solid #1085e4;
 }
 .btn-primary:hover {
     color: #1085e4;
-    background: #fff;;
+    background-color: #fff;
 }
 
 .btn-secondary {
-    color: #7e8bae;
     background-color: #cbdbe8;
     text-transform: uppercase;
+    color: #7e8bae;
     font-size: 12px;
     font-weight: 700;
     padding: 25px 45px;
-    border-radius: 30px;
+    border-radius: 40px;
     letter-spacing: 3.5px;
     border: 1px solid #cbdbe8;
 }
@@ -94,22 +98,58 @@ h1 {
     background-color: #fff;
 }
 
-.btn-group a+a {
-    margin-left: 15px;
-
-}
 .btn-free {
     font-weight: 400;
     letter-spacing: 2.3px;
     padding: 25px 60px;
 }
+.btn-group a+a {
+    margin-left: 19px;
+
+}
 
 .btn-info {
-    color: #8051b1;
+    color: #8085b1;
     background: transparent;
     border: 1px solid #dce1e5;
-    padding: 20px 40px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 20px 60px;
     border-radius: 30px;
+    letter-spacing: 2.5px;
+}
+
+.btn-info:hover {
+    border: 1px solid #94b4cc;
+    color: #fff;
+    background-color: #94b4cc;
+}
+
+.page-plan .btn-primaty {
+    padding: 20px 60px;
+}
+
+.page-plan .btn-primaty:hover {
+    background: transparent;
+}
+
+.btn-sub {
+    letter-spacing: 4px;
+    padding: 18px 48px;
+}
+
+.btn-controll{
+    padding: 24px 72px;
+}
+
+.btn-plan {
+    padding: 24px 68px;
+}
+
+.btn-form {
+    letter-spacing: 2.1px;
+    padding: 24px 56px;
 }
 
 .grid h2 {
@@ -211,6 +251,39 @@ h1 {
     font-weight: 700;
     color: #bacbdc;
 }
+
+.page-screen {
+    text-align: center;
+}
+
+.screen {
+    margin-top: 40px;
+    margin-bottom: -10px;
+}
+
+.page-stat,
+.page-screen {
+    background-color: #edf6ff;
+}
+
+.page-stat {
+    padding: 115px 0px 95px 0px;
+}
+
+.page-screen {
+    padding: 80px 0 0 0;
+}
+
+.page-screen .title-h2 {
+    font-size: 40px;
+    letter-spacing: -1.1px;
+}
+.page-screen .title-h2 span {
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 3.5px;
+}
+
 .page-app h2 {
     font-size: 50px;
     font-weight: 600;
@@ -294,4 +367,122 @@ h1 {
 .page-stat{
     background-color: #edf6ff;
     padding: 115px 0 95px 0;
+}
+
+.page-screen,
+.page-plan {
+    text-align: center;
+}
+
+.box-price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.box-price-item {
+    background-color: #f5faff;
+    flex-basis: 32%;
+    padding: 90px 0 96px 0;
+    position: relative;
+}
+
+.box-price-item h3 {
+    color: #000958;
+    font-size: 70px;
+    letter-spacing: -1px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+.box-price-item h3 span {
+    font-size: 20px;
+}
+
+.box-price-item p {
+    font-size: 14px;
+    color: #0084ff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.box-price-item h3 span:first-child {
+    color: #000958;
+}
+
+.box-price-item.active h3 span :first-child {
+    color: #fff;
+} 
+.box-price-item.active h3 {
+    color: #fff;
+}
+
+.box-price-item h3 span :last-child {
+    color: #7b8ab2;
+}
+
+.box-price-item.active {
+    background-color: #152b59;
+    color: #fff;
+}
+
+.box-price-item ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 34px;
+    margin-bottom: 60px;
+    font-size: 14px;
+}
+
+.box-price-item ul>li {
+    margin-bottom: 14px;
+}
+
+.btn-info {
+    color: #8085b1;
+    background: transparent;
+    border: 1px solid #dce1e5;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 20px 60px;
+    border-radius: 30px;
+    letter-spacing: 2.5px;
+}
+
+.btn-info :hover {
+    color: #fff;
+    background-color: #94b4cc;
+    border: 1px solid #94b4cc;
+}
+
+.page-plan .btn-primary {
+    padding: 20px 60px;
+}
+
+.page-plan .btn-primary:hover {
+    background-color: transparent;
+}
+
+.page-team h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.page-team h2 span {
+    color: #85c8ff;
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.box-team p {
+    font-size: 26px;
+    font-weight: 600;
+    color: #192b59;
+}
+
+.box-team strong {
+    font-size: 14px;
+    font-weight: 800;
+    color: #1a88e1;
 }
